@@ -1,0 +1,160 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0;
+    }
+    
+    .wrapper{
+        width: 1620px;
+        margin: 0 auto;
+    }
+
+body{
+    background-image: url(/assets/bg/pattern_bg.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.index__top_paragraph{
+
+    font-family: Ubuntu,sans-serif;
+    line-height: 1.1;
+    font-weight: 100;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-size: 21px;
+    letter-spacing: 22px;
+}
+
+.test{
+ max-width: 100%;
+ height: auto;
+}
+
+
+
+.animated__header_text{
+    position: absolute;
+    top: 370px;
+    left: 530px;
+}
+
+
+.nav__border{
+border-top: solid 1px  #ff2a70;
+border-bottom: solid 1px #ff2a70;
+}
+
+
+
+
+
+.nav{
+    width: 1620px;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 0 auto;
+    font-size: 16px;
+    
+    
+}
+
+.nav__top_triangle{
+    width: 0;
+height: 0;
+border-style: solid;
+border-width: 50px 50px 0 0;
+border-color: #ff2b72 transparent transparent transparent;
+}
+
+
+.nav__bottom_triangle{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 0 50px 50px;
+    border-color: transparent transparent #ff2b72 transparent;
+    
+}
+
+.nav .nav__img{
+    margin-right: 90px;
+}
+
+
+.nav li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    
+}
+
+li a:hover{
+    border-bottom: 2px solid #ff2a70;
+    color: #ff2a70;
+}
+
+
+
+.nightclub__offers, .nightclub__tracks{
+    
+    width: 1620px;
+    color: #FFFFFF;
+    
+}
+
+
+.nightclub__offers span{
+    
+    color: #ff2a70;
+}
+
+.nightclub__grid{
+    width: 1120px;
+     margin-left: 300px;
+    display: grid;
+    justify-self:center;
+    grid-template-columns: 370px 360px 370px;
+    column-gap: 10px;
+}
+
+
+
+.nightclub__animation_offers1:hover{
+    animation-name: change_color;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    
+}
+
+
+.nightclub__animation_offers2:hover{
+    animation-name: change_color;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    
+}
+
+
+
+.nightclub__animation_offers3:hover{
+    animation-name: change_color;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    
+}
+
+
+
+
+
+.invisable__nightclub_text{
+display: none;
+}
+
+@keyframes change_color{
+    from {background-color: #ff2a70;}
+    to {background-color: aqua;}
+
+}
